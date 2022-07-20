@@ -22,7 +22,7 @@ function test()
         return "apni c paisen";
     } else if ($mark >= 33) {
         return "apni D paisen";
-    } else if ($mark > 0 && $mark < 33) {
+    } else if ($mark >= 0 && $mark < 33) {
         return "apni fail korsen";
     } else {
         return "";
